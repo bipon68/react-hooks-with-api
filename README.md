@@ -5,6 +5,7 @@
 ## Project creation step
 
 - `create-react-app react-hooks-with-api`
+- `npm i axios`
 - `npm start` or `yarn start`
 
 ## Topics Cover
@@ -13,15 +14,13 @@
 
 ## Quick Start
 
-1.  Clone the repo `git clone https://github.com/bipon68/react-hooks`
+1.  Clone the repo `git clone https://github.com/bipon68/react-hooks-with-api.git`
 2.  Go to your project folder from your terminal
 3.  Run: `npm install` or `yarn install`
 4.  After install, run: `npm run dev`
 5.  It will open your browser(http://localhost:3000)
 
-## Note
-
-## Instructor: [Derek Jensen](https://tutsplus.com/authors/derek-jensen)
+## Channel: [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
