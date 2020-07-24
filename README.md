@@ -10,7 +10,10 @@
 
 ## Topics Cover
 - create react app
-- 
+- ES6 Map
+- Ternary operator
+- Hooks (useState, useEffect)
+- pass data parent to child
 
 ## Quick Start
 
