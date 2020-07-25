@@ -13,11 +13,15 @@ function App() {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await Axios(`https://www.breakingbadapi.com/api/characters?name=${query}`)
-      console.log(result.data);
+      try{
+        const result = await Axios(`https://www.breakingbadapi.com/api/characters?name=${query}`)
+        console.log(result.data);
+  
+        setItems(result.data);
+        setIsLoading(false);
+      }catch (e) {
 
-      setItems(result.data);
-      setIsLoading(false);
+      }
     }
     fetchItems()
   }, [query])
